@@ -41,7 +41,7 @@ for year in range(2010,2011):
 
 api_service_name = "youtube"
 api_version = "v3"
-api_token = 'AIzaSyAWhuOmyR4gq25tQqXjs1Lbbp0I3scRSQ8'
+api_token = 'YOUR_KEY'
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=api_token
 )
